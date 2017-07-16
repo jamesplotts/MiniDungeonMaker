@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.MiniDungeonMaker.Form1
+            Me.MainForm = MiniDungeonMaker
         End Sub
     End Class
 End Namespace

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{368A8345-444C-46A1-B63C-1C99E472A477}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>MiniDungeonMaker.My.MyApplication</StartupObject>
-    <RootNamespace>MiniDungeonMaker</RootNamespace>
+    <StartupObject>OpenForge.Development.My.MyApplication</StartupObject>
+    <RootNamespace>OpenForge.Development</RootNamespace>
     <AssemblyName>MiniDungeonMaker</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
@@ -85,11 +85,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="MiniDungeonMaker.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="MiniDungeonMaker.Designer.vb">
+      <DependentUpon>MiniDungeonMaker.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Map.vb" />
@@ -115,8 +115,8 @@
     <Compile Include="Tileset.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="MiniDungeonMaker.resx">
+      <DependentUpon>MiniDungeonMaker.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
